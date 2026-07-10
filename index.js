@@ -5,10 +5,6 @@ const morgan = require('morgan')
 app.use(express.static('dist'))
 
 
-// Same origin policy / cors
-const cors = require('cors')
-app.use(cors())
-
 
 app.use(express.json())
 // app.use(morgan('tiny'))
