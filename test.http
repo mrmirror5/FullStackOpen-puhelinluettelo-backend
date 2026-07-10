@@ -1,9 +1,9 @@
-POST  http://localhost:3001/api/persons
+POST  https://fullstackopen-puhelinluettelo-backend-h33y.onrender.com/api/persons
 Content-Type: application/json
 
 {
     "name":"RP", 
-    "number":"+358 41 89274291"
+    "number":"+358 41 726251"
 }
 
 # GET http://localhost:3001/api/persons
