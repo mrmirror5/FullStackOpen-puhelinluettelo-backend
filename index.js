@@ -2,6 +2,7 @@ const express = require("express")
 const app = express()
 const morgan = require('morgan')
 
+app.use(express.static('dist'))
 
 
 // Same origin policy / cors
